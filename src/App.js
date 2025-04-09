@@ -1,13 +1,9 @@
-import logo from './logo.svg';
 import './App.css';
-import ProductList from './Components/ProductList';
 import CollectionList from './Components/CollectionList';
 
 function App() {
   return (
-    <div className="App">
-    
-{/* <ProductList/> */}
+  <div className="App">
 <CollectionList />
     </div>
   );
